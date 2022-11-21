@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="900.0" styleClass="anchor" stylesheets="@MainWindowStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.TicketSelectionController">
+   <children>
+      <ImageView fitHeight="346.0" fitWidth="1314.0" layoutX="-262.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Img/plane.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="btnF1" layoutX="26.0" layoutY="77.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnD1" layoutX="26.0" layoutY="103.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnC1" layoutX="26.0" layoutY="149.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnA1" layoutX="26.0" layoutY="175.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnF2" layoutX="60.0" layoutY="77.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnD2" layoutX="60.0" layoutY="103.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnC2" layoutX="60.0" layoutY="149.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnA2" layoutX="60.0" layoutY="175.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnF3" layoutX="95.0" layoutY="77.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnD3" layoutX="95.0" layoutY="103.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnC3" layoutX="95.0" layoutY="149.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnA3" layoutX="95.0" layoutY="175.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnF4" layoutX="130.0" layoutY="77.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnD4" layoutX="130.0" layoutY="103.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnC4" layoutX="130.0" layoutY="149.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnA4" layoutX="130.0" layoutY="175.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnF5" layoutX="163.0" layoutY="77.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnD5" layoutX="163.0" layoutY="103.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnC5" layoutX="163.0" layoutY="149.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <Pane fx:id="btnA5" layoutX="163.0" layoutY="175.0" onMouseClicked="#onPlaceClicked" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: white;" />
+      <AnchorPane layoutX="-5.0" layoutY="235.0" prefHeight="171.0" prefWidth="908.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="lblPlace" layoutX="89.0" layoutY="77.0" text="Label" />
+            <Label layoutX="170.0" layoutY="77.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
